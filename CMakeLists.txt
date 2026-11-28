@@ -51,6 +51,7 @@ if(WIN32)
 endif()
 
 add_executable(server
+  server/alerts.cpp
   server/main.cpp
   server/core.cpp
   server/history.cpp
